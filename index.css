@@ -1,0 +1,72 @@
+.time
+{
+   border: 2px solid #000080;
+   border-radius: 10px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 16px;
+   padding: 4px 4px 4px 4px;
+   margin: 0;
+   text-align: center;
+   vertical-align: middle;
+}
+
+.start
+{
+   border: 0px solid #8B0000;
+   border-radius: 5px;
+   background-color: #800000;
+   background-image: none;
+   color: #000000;
+   font-family: Courier;
+   font-weight: bold;
+   font-size: 14px;
+   margin: 0;
+}
+.other
+{
+   border: 0px solid #8B0000;
+   border-radius: 5px;
+   background-color: #D2691E;
+   background-image: none;
+   color: #000000;
+   font-family: Verdana;
+   font-weight: normal;
+   font-size: 13px;
+   margin: 0;
+}
+.reverse
+{
+   border: 0px solid #8B0000;
+   border-radius: 5px;
+   background-color: #BC8F8F;
+   background-image: none;
+   color: #000000;
+   font-family: Courier;
+   font-weight: bold;
+   font-size: 14px;
+   margin: 0;
+}
+#Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#Text1 div
+{
+   text-align: center;
+}
+#sp
+{
+  color:#6A5ACD;
+  font-family:Comic Sans MS;
+  font-size:17px; 
+}

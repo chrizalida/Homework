@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Homework</title>
+    <link href="index.css" rel="stylesheet">
+    <script src="index.js"></script>
+</head>
+<body>
+<!--     Создайте счетчик секунд, который начинает отчет с 1 и заканчивается на 30, также добавьте кнопки который останавливают отчет, и запускают его заново и добавьте кнопку обнуляющую отcчет. Также попробуйте изменить код так чтобы отчет начинался с 30 и заканчивался на 1. -->
+
+  <input  class="time" id="view" name="Editbox1" value="1" style="position:absolute;left:141px;top:168px;width:69px;height:16px;z-index:0;"></input> 	
+  <button class="start" id="1" onclick="StartTimer(1)" style="position:absolute;left:247px;top:164px;width:139px;height:37px;z-index:1;">Старт</button>
+  <button class="other" onclick="StopTimer()" style="position:absolute;left:247px;top:211px;width:139px;height:37px;z-index:2;">Стоп</button>
+  <button class="other" onclick="NullTimer()" style="position:absolute;left:247px;top:265px;width:139px;height:37px;z-index:3;" onclick="NullTimer()">Сброс</button>
+  <button class="other" onclick="ContinueTimer()" style="position:absolute;left:247px;top:317px;width:139px;height:37px;z-index:4;">Продолжить</button>
+  <button class="reverse" onclick="StartTimer(-30)" style="position:absolute;left:247px;top:371px;width:139px;height:37px;z-index:5;">Реверс</button>
+  <div id="Text1" style="position:absolute;left:200px;top:94px;width:155px;height:24px;z-index:6;">
+  <span id = "sp">Счетчик секунд</span></div>
+
+</body>
+</html>
